@@ -1,0 +1,9 @@
+{
+  "enabled": true,
+  "frequency": "weekly",
+  "day": "Sunday",
+  "time": "23:00",
+  "command": "/loop",
+  "mode": "human-gated",
+  "dry_run": false
+}
