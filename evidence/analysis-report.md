@@ -2,11 +2,8 @@
 
 ## Analysis Window
 
-Start:
-2026-09-15
-
-End:
-2026-09-22
+Start: 2026-09-15
+End: 2026-09-22
 
 ## Runs Examined
 

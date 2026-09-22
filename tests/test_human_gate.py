@@ -31,7 +31,7 @@ class TestHumanGate(unittest.TestCase):
             (tmp_path / "progress.md").write_text((self.base_dir / "progress.md").read_text(encoding="utf-8"), encoding="utf-8")
             (tmp_path / "dreaming-state.md").write_text((self.base_dir / "dreaming-state.md").read_text(encoding="utf-8"), encoding="utf-8")
 
-            result = run_dreaming_loop(base_dir=tmp_path, quiet=True)
+            result = run_dreaming_loop(base_dir=tmp_path, force_all=True, quiet=True)
 
             self.assertTrue(result.success)
             self.assertTrue(result.has_proposal)

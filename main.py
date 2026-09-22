@@ -12,6 +12,12 @@ from pathlib import Path
 import sys
 from typing import List
 
+# Ensure UTF-8 output encoding across Windows terminals
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+if hasattr(sys.stderr, "reconfigure"):
+    sys.stderr.reconfigure(encoding="utf-8", errors="replace")
+
 from commands.goal import run_goal
 from commands.loop import run_loop
 from commands.schedule import run_schedule
