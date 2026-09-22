@@ -8,4 +8,4 @@ proposed_changes:
 deletion_candidate: Perform an additional manual formatting check after every run.
 pr_branch: claude/evidence-validation-was-skipped
 pr_status: pending_human_review
-last_updated: "2026-09-22T16:44:24.268264+00:00"
+last_updated: "2026-09-22T16:58:44.522907+00:00"
